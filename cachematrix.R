@@ -36,6 +36,7 @@ cacheSolve <- function(x=matrix(),...) {
     ##  is same as the original matrix for which inverse has been calculated
     
     ## is.matrix(m) checks if the m object found is a matrix only
+    
     ## identical(m,n)==FALSE   checks that m matrix is not null by comparing it with 'n' matrix
     
     if(identical(x,orig) & is.matrix(m) & identical(m,n)==FALSE) {
